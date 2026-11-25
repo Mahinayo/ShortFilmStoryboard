@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.local/schemas/storyboard.schema.json",
+  "title": "ShortFilmStoryboard",
+  "description": "Single contract between storyboard authoring and the 5-stage AI short film pipeline (keyframes, moving shots, music, narration, assembly).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "language",
+    "aspect_ratios",
+    "total_duration_sec",
+    "style_reference",
+    "shots"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 160
+    },
+    "language": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 16
+    },
+    "aspect_ratios": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": ["9:16", "16:9"]
+      }
+    },
+    "total_duration_sec": {
+      "type": "number",
+      "minimum": 55,
+      "maximum": 95
+    },
+    "style_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["medium", "cultural_elements", "palette"],
+      "properties": {
+        "medium": { "type": "string", "minLength": 1 },
+        "cultural_elements": { "type": "string", "minLength": 1 },
+        "palette": { "type": "string", "minLength": 1 },
+        "character_sheet_path": { "type": "string" }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 15,
+      "items": {
+        "$ref": "#/definitions/Shot"
+      }
+    }
+  },
+  "definitions": {
+    "Shot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "shot_id",
+        "duration_sec",
+        "camera_type",
+        "character_ref",
+        "keyframe_prompt",
+        "motion_prompt",
+        "narration_am",
+        "narration_en",
+        "music_cue"
+      ],
+      "properties": {
+        "shot_id": {
+          "type": "string",
+          "pattern": "^shot_[0-9]{2,3}$"
+        },
+        "duration_sec": {
+          "type": "number",
+          "minimum": 2,
+          "maximum": 20
+        },
+        "camera_type": {
+          "type": "string",
+          "enum": [
+            "extreme_wide",
+            "wide_establishing",
+            "wide_shot",
+            "medium_shot",
+            "medium_close_up",
+            "close_up",
+            "extreme_close_up",
+            "insert_shot",
+            "cutaway",
+            "over_the_shoulder"
+          ]
+        },
+        "character_ref": { "type": "string", "minLength": 1 },
+        "keyframe_prompt": { "type": "string", "minLength": 10 },
+        "motion_prompt": { "type": "string", "minLength": 3 },
+        "narration_am": { "type": "string", "minLength": 1 },
+        "narration_en": { "type": "string", "minLength": 1 },
+        "music_cue": { "type": "string", "minLength": 1 },
+        "seed": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}
