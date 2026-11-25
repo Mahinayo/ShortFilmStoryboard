@@ -1,0 +1,101 @@
+{
+  "title": "The Blessings of Pure Hands",
+  "language": "am",
+  "aspect_ratios": ["9:16", "16:9"],
+  "total_duration_sec": 74,
+  "style_reference": {
+    "medium": "cinematic 35mm film, natural grain, warm emotional lighting",
+    "cultural_elements": "Ethiopian home interior, warm water basin, Netela, Habesha Kemis, highland morning light",
+    "palette": "warm earth tones, golden hour amber, soft sky blue"
+  },
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "duration_sec": 9,
+      "camera_type": "medium_close_up",
+      "character_ref": "daughter_child",
+      "keyframe_prompt": "Cinematic 35mm medium close-up of an 8-year-old Ethiopian girl with neat braids and a white Netela shawl, gently pouring warm water from a small pitcher over her father's feet in a basin indoors, soft warm lamp light, earnest and humble expression",
+      "motion_prompt": "Slow gentle push-in as water pours softly into the basin",
+      "narration_am": "በልጅነቴ የአባቴን እግር ስታጠብ፣ ልቡ በንጹህ ምርቃት ይሞላ ነበር።",
+      "narration_en": "When I was a child washing my father's feet, his heart would fill with pure blessings.",
+      "music_cue": "soft_krar_and_warm_pad"
+    },
+    {
+      "shot_id": "shot_02",
+      "duration_sec": 9,
+      "camera_type": "medium_shot",
+      "character_ref": "father_and_daughter_child",
+      "keyframe_prompt": "Cinematic 35mm medium shot of a kind middle-aged Ethiopian father sitting on a wooden chair in a warm, modest room while his young daughter washes his feet, placing a gentle blessing hand on her head with a warm, pure smile",
+      "motion_prompt": "Subtle warm camera drift with soft candlelight glow",
+      "narration_am": "‘እግዚአብሔር ይባርክሽ፤ መንገድሽ የተከፈተ፣ ልብሽም የተረጋጋ ይሁን’ ይለኝ ነበር።",
+      "narration_en": "'May God bless you; may your path be open and your heart be at peace,' he used to pray.",
+      "music_cue": "gentle_strings_enter"
+    },
+    {
+      "shot_id": "shot_03",
+      "duration_sec": 9,
+      "camera_type": "close_up",
+      "character_ref": "daughter_child",
+      "keyframe_prompt": "Cinematic 35mm close-up of the 8-year-old Ethiopian girl looking up with trust and reverence as her father speaks blessings over her, warm golden rim light",
+      "motion_prompt": "Slow gentle zoom toward her attentive eyes",
+      "narration_am": "በንጹህ ልብ የወጣ ቃል እንደ ዘር በውስጤ ተተክሎ አደገ።",
+      "narration_en": "Words spoken from a pure heart took root inside me like a seed.",
+      "music_cue": "warm_cello_and_krar"
+    },
+    {
+      "shot_id": "shot_04",
+      "duration_sec": 10,
+      "camera_type": "wide_establishing",
+      "character_ref": "none",
+      "keyframe_prompt": "Cinematic 35mm wide shot of golden sunrise breaking over misty green Ethiopian highland hills and a quiet courtyard at dawn, peaceful morning light",
+      "motion_prompt": "Slow pan across the sunlit highlands",
+      "narration_am": "ብዙ ዓመታት አለፉ፤ አባቴም ወደ ፈጣሪው ሄደ፣ ግን ምርቃቱ አብሮኝ ቆየ።",
+      "narration_en": "Many years passed; my father went to his Creator, yet his blessings stayed with me.",
+      "music_cue": "tempo_lifts_hopeful_theme"
+    },
+    {
+      "shot_id": "shot_05",
+      "duration_sec": 9,
+      "camera_type": "medium_shot",
+      "character_ref": "daughter_adult",
+      "keyframe_prompt": "Cinematic 35mm medium shot of a 25-year-old Ethiopian woman wearing a refined Habesha Kemis with subtle gold embroidery, standing calmly and confidently in warm morning sunlight with a serene smile",
+      "motion_prompt": "Slow tracking push-in as morning light illuminates her face",
+      "narration_am": "የተመኘልኝ ሰላም፣ ጥበብ እና ክብር በሕይወቴ አንድ በአንድ ተፈጸሙ።",
+      "narration_en": "The peace, wisdom, and grace he wished for me came true in my life, one by one.",
+      "music_cue": "full_warm_ensemble"
+    },
+    {
+      "shot_id": "shot_06",
+      "duration_sec": 9,
+      "camera_type": "close_up",
+      "character_ref": "daughter_adult",
+      "keyframe_prompt": "Cinematic 35mm close-up of the 25-year-old Ethiopian woman with gentle tears of gratitude in her eyes, looking softly upward as warm sunlight touches her face",
+      "motion_prompt": "Slow subtle tilt with soft natural light shift",
+      "narration_am": "በእያንዳንዱ ስኬቴ ውስጥ የአባቴን ንጹህ ልብ አስታውሳለሁ።",
+      "narration_en": "In every blessing I receive, I remember my father's pure heart.",
+      "music_cue": "intimate_piano_and_voice_space"
+    },
+    {
+      "shot_id": "shot_07",
+      "duration_sec": 10,
+      "camera_type": "extreme_wide",
+      "character_ref": "father_heaven",
+      "keyframe_prompt": "Cinematic 35mm wide ethereal scene of soft luminous clouds and warm golden morning rays in a peaceful heavenly sky, serene and reverent atmosphere",
+      "motion_prompt": "Slow forward drift through soft golden light",
+      "narration_am": "ከሰማይም አባቴ ሕይወቴን ሲያይ፣ ልቡ በደስታ ተሞላ።",
+      "narration_en": "From heaven, my father looked upon my life, and his heart filled with joy.",
+      "music_cue": "uplifting_choral_pad"
+    },
+    {
+      "shot_id": "shot_08",
+      "duration_sec": 10,
+      "camera_type": "medium_close_up",
+      "character_ref": "father_heaven",
+      "keyframe_prompt": "Cinematic 35mm medium close-up of the father in radiant, peaceful golden light looking down with a joyful, thankful smile and gentle tears of gratitude toward heaven",
+      "motion_prompt": "Slow gentle hold with soft golden glow",
+      "narration_am": "ልጁን በምርቃቱ ስትኖር አይቶ፣ እግዚአብሔርን ከልብ አመሰገነ።",
+      "narration_en": "Seeing his daughter living in his blessings, he thanked God from his heart.",
+      "music_cue": "gentle_resolution_fade"
+    }
+  ]
+}
